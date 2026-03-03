@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-03-03T19:46:42.596430Z",
+  "tfhubUrl": "https://tfhub.dev/google/imagenet/mobilenet_v3_large_100_224/feature_vector/5",
+  "inputShape": [
+    1,
+    224,
+    224,
+    3
+  ],
+  "dtypeIO": "float32",
+  "optimization": "FP16",
+  "preprocess": {
+    "type": "scale",
+    "range": "0_1"
+  },
+  "tfliteInput": {
+    "shape": [
+      1,
+      224,
+      224,
+      3
+    ],
+    "dtype": "<class 'numpy.float32'>"
+  },
+  "tfliteOutput": {
+    "shape": [
+      1,
+      1280
+    ],
+    "dtype": "<class 'numpy.float32'>"
+  },
+  "outputDim": 1280,
+  "sha256": "b8ec5031521ff3a78595133317a51af13bc314a7b4ff0e6ee079b681d878839f",
+  "sizeBytes": 8458024
+}
